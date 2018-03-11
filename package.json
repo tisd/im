@@ -1,0 +1,24 @@
+{
+  "name": "im",
+  "version": "1.0.0",
+  "description": "Basic Invertory Management Tool",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tisd/im.git"
+  },
+  "keywords": [
+    "im"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tisd/im/issues"
+  },
+  "homepage": "https://github.com/tisd/im#readme",
+  "devDependencies": {
+    "electron": "^1.8.3"
+  }
+}
