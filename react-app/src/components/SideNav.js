@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
+import { Sidebar, Segment, Menu, Icon, Header } from 'semantic-ui-react'
 import './SideNav.css';
+import Products from "./Products";
 
 export default class SideNav extends Component {
 
@@ -30,7 +31,7 @@ export default class SideNav extends Component {
           <Sidebar.Pusher className="content">
             <Segment basic>
               <Header as='h3'>Application Content</Header>
-              {/* <Image src='/assets/images/wireframe/paragraph.png' /> */}
+              <Products />
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
